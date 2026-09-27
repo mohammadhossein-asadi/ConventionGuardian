@@ -115,7 +115,7 @@ def find_formatting_issues(
                 path,
                 f"Mixed quote styles ({singles} single vs {doubles} double)",
                 "mixed quotes",
-                'double quotes',
+                "double quotes",
                 "fmt-quotes",
                 _normalize_quotes_to_double,
             )

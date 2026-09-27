@@ -1,9 +1,8 @@
 """Golden mini-project builder for tests (valid Python with seeded violations)."""
 
 from __future__ import annotations
-
-import subprocess
 from pathlib import Path
+import subprocess
 
 FILES = {
     "sample_app/__init__.py": "",

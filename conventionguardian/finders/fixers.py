@@ -9,23 +9,23 @@ import re
 
 # --- Formatting (category D) -----------------------------------------------
 
-# Matches any single inline comment, honoring the fact that '#' inside a
+# Matches any single inline comment, honoring the fact that "#" inside a
 # string literal is not a comment. We only strip comments that are preceded
-# by whitespace and followed by end-of-line, and the '#' must not be inside
+# by whitespace and followed by end-of-line, and the "#" must not be inside
 # quotes: we approximate by counting quotes before it.
 _INLINE_COMMENT = re.compile(r"(?P<code>.*?)(?P<ws>\s+)#\s*[^\n]*$", re.DOTALL)
 
 
 def _hash_outside_quotes(code: str) -> bool:
-    """True if '#' chars in code are all outside quotes (rough but safe check)."""
+    """True if "#" chars in code are all outside quotes (rough but safe check)."""
     return code.count('"') % 2 == 0 and code.count("'") % 2 == 0
 
 
 def strip_inline_comment(content: str, count: int = 1) -> str:
     """Remove inline comments (keeping standalone comment lines) from Python files.
 
-    Only removes trailing comments whose '#' is outside any string literal,
-    and never removes '# type:' or '# noqa' markers.
+    Only removes trailing comments whose "#" is outside any string literal,
+    and never removes "# type:" or "# noqa" markers.
     """
     lines = content.split("\n")
     removed = 0

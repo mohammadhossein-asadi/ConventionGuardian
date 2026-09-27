@@ -4,11 +4,10 @@ Also provides the ignore-aware file walk used by the audit pipeline.
 """
 
 from __future__ import annotations
-
-import fnmatch
 from pathlib import Path
 
 from pathspec import GitIgnoreSpec
+import fnmatch
 
 from conventionguardian.config import BUILTIN_IGNORE_FILES, Config, load_config
 from conventionguardian.models import ToolProfile

@@ -1,9 +1,9 @@
 """Unified diff helpers."""
 
 from __future__ import annotations
+from pathlib import Path
 
 import difflib
-from pathlib import Path
 
 
 def unified_diff(old: str, new: str, path: Path | str, context: int = 3) -> str:

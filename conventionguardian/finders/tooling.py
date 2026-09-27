@@ -1,7 +1,6 @@
 """Configuration & tooling consistency finder (category F)."""
 
 from __future__ import annotations
-
 from pathlib import Path
 
 from conventionguardian.models import Category, Finding, Severity

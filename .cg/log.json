@@ -1,0 +1,55 @@
+{
+  "applied": [
+    {
+      "ts": "2026-09-27T15:18:49",
+      "batch": "imports",
+      "ids": [
+        "I-002",
+        "I-006",
+        "I-007",
+        "I-009",
+        "I-011",
+        "I-012",
+        "I-013",
+        "I-015",
+        "I-016",
+        "I-017",
+        "I-018",
+        "I-019",
+        "I-020",
+        "I-021",
+        "I-022",
+        "I-023",
+        "I-024",
+        "I-025",
+        "I-026",
+        "I-027"
+      ],
+      "status": "reverted",
+      "reason": "verification failed: python -m pytest -x -q C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian",
+      "files": [
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\adapters\\base.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\adopt.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\applier.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\checks.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\config.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\diff.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\finders\\docs_style.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\finders\\imports.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\finders\\misc.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\finders\\naming.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\finders\\structure.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\finders\\tooling.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\formatters.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\models.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\reporters\\console.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\reporters\\markdown.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\safety.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\scanner.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\conventionguardian\\styleguide.py",
+        "C:\\Users\\MohammadHossein\\Desktop\\projects\\ConventionGuardian\\tests\\fixture_project.py"
+      ]
+    }
+  ],
+  "remaining": []
+}

@@ -5,7 +5,6 @@ and adapters are only loadable when the grammars are present.
 """
 
 from __future__ import annotations
-
 from dataclasses import dataclass
 from pathlib import Path
 

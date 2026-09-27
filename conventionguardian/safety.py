@@ -1,10 +1,9 @@
 """Git safety net: dirty-tree check, safety branch, SafetyError."""
 
 from __future__ import annotations
-
+from pathlib import Path
 import subprocess
 import time
-from pathlib import Path
 
 from rich.console import Console
 

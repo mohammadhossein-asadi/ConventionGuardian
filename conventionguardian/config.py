@@ -1,9 +1,8 @@
 """Local config (.cg.toml): target convention set, include/exclude, ignore patterns."""
 
 from __future__ import annotations
-
-import tomllib
 from pathlib import Path
+import tomllib
 
 DEFAULT_EXCLUDES = [
     "node_modules",

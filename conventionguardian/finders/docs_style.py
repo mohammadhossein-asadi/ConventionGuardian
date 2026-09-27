@@ -6,9 +6,9 @@ Docstring reformatting is deferred to later versions.
 """
 
 from __future__ import annotations
+from pathlib import Path
 
 import ast
-from pathlib import Path
 
 from conventionguardian.models import Category, Finding, Severity
 

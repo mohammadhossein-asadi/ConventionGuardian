@@ -9,11 +9,11 @@ v1 scope).
 """
 
 from __future__ import annotations
-
-import ast
-import re
 from collections import Counter
 from pathlib import Path
+import re
+
+import ast
 
 from conventionguardian.finders.fixers import camel_to_snake, rename_identifier
 from conventionguardian.models import Category, Finding, Severity

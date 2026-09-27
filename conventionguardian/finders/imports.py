@@ -1,9 +1,9 @@
 """Imports & module organization finder (category C)."""
 
 from __future__ import annotations
+from pathlib import Path
 
 import ast
-from pathlib import Path
 
 from conventionguardian.finders.fixers import sort_import_block
 from conventionguardian.models import Category, Finding, Severity

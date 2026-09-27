@@ -13,14 +13,14 @@ separate step so existing files can be skipped or overwritten with --force.
 """
 
 from __future__ import annotations
-
+from collections import Counter
+from dataclasses import dataclass, field
+from pathlib import Path
 import re
 import shutil
 import subprocess
-from collections import Counter
-from dataclasses import dataclass, field
+
 from datetime import date
-from pathlib import Path
 
 from conventionguardian.diff import unified_diff
 from conventionguardian.models import Category, Finding, ToolProfile

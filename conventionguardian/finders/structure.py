@@ -5,7 +5,6 @@ items here are report-only recommendations (confidence 0, never auto-applied).
 """
 
 from __future__ import annotations
-
 from pathlib import Path
 
 from conventionguardian.models import Category, Finding, Severity

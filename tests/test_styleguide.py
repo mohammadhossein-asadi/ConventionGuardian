@@ -82,7 +82,7 @@ def test_ci_snippet_matches_stack(monkeypatch):
     assert "cg verify" in ci
 
     go = styleguide._ci(ToolProfile(languages=["Go"], tests=["go test"]), [])
-    assert 'gofmt -l .' in go
+    assert "gofmt -l ." in go
     assert "go vet ./..." in go
 
 

@@ -11,11 +11,10 @@ the built-in passes apply as usual.
 """
 
 from __future__ import annotations
-
-import shutil
-import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path
+import shutil
+import subprocess
 
 from conventionguardian.models import Finding, Severity, ToolProfile
 

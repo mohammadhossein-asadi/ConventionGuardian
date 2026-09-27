@@ -1,7 +1,6 @@
 """Additional pure-structure finder (category G)."""
 
 from __future__ import annotations
-
 from pathlib import Path
 
 from conventionguardian.models import Category, Finding, Severity

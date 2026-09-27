@@ -1,13 +1,12 @@
 """Apply approved findings with per-batch verification and auto-revert."""
 
 from __future__ import annotations
-
+from pathlib import Path
 import hashlib
 import json
 import re
 import shutil
 import time
-from pathlib import Path
 
 from conventionguardian import checks, safety
 from conventionguardian.audit import eligible_for_batch
