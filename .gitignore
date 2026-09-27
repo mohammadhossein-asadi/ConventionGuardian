@@ -1,0 +1,9 @@
+# ConventionGuardian dev
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.cg-venv/

@@ -1,0 +1,5 @@
+target = "internal"
+
+# include = []   # extra globs to audit
+# exclude = []   # extra globs to skip
+# style_guide_file = "STYLE.md"
